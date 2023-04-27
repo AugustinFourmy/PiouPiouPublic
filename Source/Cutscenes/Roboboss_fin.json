@@ -1,0 +1,822 @@
+{
+    "name": "Roboboss",
+    "duration": 190,
+    "screen_size": [
+        640,
+        780
+    ],
+    "comment": "meurt",
+    "element": {
+        "0": {
+            "name": "Roboboss",
+            "type": "Sprite",
+            "event_dict": {
+                "0": {
+                    "name": "Tremble_1",
+                    "type": "Se d\u00e9placer vers",
+                    "start_frame": 0,
+                    "end_frame": 10,
+                    "destination": [
+                        5,
+                        0
+                    ]
+                },
+                "1": {
+                    "name": "Tremble_2",
+                    "type": "Se d\u00e9placer vers",
+                    "start_frame": 10,
+                    "end_frame": 20,
+                    "destination": [
+                        -5,
+                        0
+                    ]
+                },
+                "2": {
+                    "name": "Tremble_3",
+                    "type": "Se d\u00e9placer vers",
+                    "start_frame": 20,
+                    "end_frame": 30,
+                    "destination": [
+                        5,
+                        0
+                    ]
+                },
+                "3": {
+                    "name": "Tremble_4",
+                    "type": "Se d\u00e9placer vers",
+                    "start_frame": 30,
+                    "end_frame": 40,
+                    "destination": [
+                        -5,
+                        0
+                    ]
+                },
+                "4": {
+                    "name": "Tremble_5",
+                    "type": "Se d\u00e9placer vers",
+                    "start_frame": 40,
+                    "end_frame": 50,
+                    "destination": [
+                        5,
+                        0
+                    ]
+                },
+                "5": {
+                    "name": "Tremble_6",
+                    "type": "Se d\u00e9placer vers",
+                    "start_frame": 50,
+                    "end_frame": 60,
+                    "destination": [
+                        -5,
+                        0
+                    ]
+                },
+                "6": {
+                    "name": "Tremble_7",
+                    "type": "Se d\u00e9placer vers",
+                    "start_frame": 60,
+                    "end_frame": 70,
+                    "destination": [
+                        5,
+                        0
+                    ]
+                },
+                "7": {
+                    "name": "Tremble_8",
+                    "type": "Se d\u00e9placer vers",
+                    "start_frame": 70,
+                    "end_frame": 80,
+                    "destination": [
+                        -5,
+                        0
+                    ]
+                },
+                "8": {
+                    "name": "Tremble_7robotboss",
+                    "type": "Se d\u00e9placer vers",
+                    "start_frame": 60,
+                    "end_frame": 70,
+                    "destination": [
+                        5,
+                        0
+                    ]
+                },
+                "9": {
+                    "name": "opacit\u00e9",
+                    "type": "Changer l'opacit\u00e9",
+                    "start_frame": 0,
+                    "end_frame": 190,
+                    "opacity": 0
+                }
+            },
+            "sprite_path": "Source\\img\\Boss\\RoboBoss\\base_robot-export.png",
+            "position_initial": [
+                0,
+                0
+            ],
+            "visible": true
+        },
+        "1": {
+            "name": "Poing_droit",
+            "type": "Sprite",
+            "event_dict": {
+                "0": {
+                    "name": "agrandir_point_droit",
+                    "type": "Changer la taille",
+                    "start_frame": 0,
+                    "end_frame": 0,
+                    "new_size": [
+                        84,
+                        84
+                    ]
+                },
+                "1": {
+                    "name": "Rotater_poing_droit",
+                    "type": "Pivoter",
+                    "start_frame": 0,
+                    "end_frame": 0,
+                    "angle": 0.0
+                },
+                "2": {
+                    "name": "Tremble_1droit",
+                    "type": "Se d\u00e9placer vers",
+                    "start_frame": 0,
+                    "end_frame": 10,
+                    "destination": [
+                        557,
+                        260
+                    ]
+                },
+                "3": {
+                    "name": "Tremble_2droit",
+                    "type": "Se d\u00e9placer vers",
+                    "start_frame": 10,
+                    "end_frame": 20,
+                    "destination": [
+                        547,
+                        260
+                    ]
+                },
+                "9": {
+                    "name": "Tremble_8droit",
+                    "type": "Se d\u00e9placer vers",
+                    "start_frame": 70,
+                    "end_frame": 80,
+                    "destination": [
+                        547,
+                        260
+                    ]
+                },
+                "4": {
+                    "name": "Tremble_3droit",
+                    "type": "Se d\u00e9placer vers",
+                    "start_frame": 20,
+                    "end_frame": 30,
+                    "destination": [
+                        557,
+                        260
+                    ]
+                },
+                "5": {
+                    "name": "Tremble_4droit",
+                    "type": "Se d\u00e9placer vers",
+                    "start_frame": 30,
+                    "end_frame": 40,
+                    "destination": [
+                        547,
+                        260
+                    ]
+                },
+                "6": {
+                    "name": "Tremble_5droit",
+                    "type": "Se d\u00e9placer vers",
+                    "start_frame": 40,
+                    "end_frame": 50,
+                    "destination": [
+                        557,
+                        260
+                    ]
+                },
+                "7": {
+                    "name": "Tremble_6droit",
+                    "type": "Se d\u00e9placer vers",
+                    "start_frame": 50,
+                    "end_frame": 60,
+                    "destination": [
+                        547,
+                        260
+                    ]
+                },
+                "8": {
+                    "name": "Tremble_7droit",
+                    "type": "Se d\u00e9placer vers",
+                    "start_frame": 60,
+                    "end_frame": 70,
+                    "destination": [
+                        557,
+                        260
+                    ]
+                },
+                "10": {
+                    "name": "rotaterpoingdroite",
+                    "type": "Pivoter",
+                    "start_frame": 0,
+                    "end_frame": 0,
+                    "angle": -90.0
+                },
+                "11": {
+                    "name": "opacit\u00e9droit",
+                    "type": "Changer l'opacit\u00e9",
+                    "start_frame": 0,
+                    "end_frame": 190,
+                    "opacity": 0
+                }
+            },
+            "sprite_path": "Source\\img\\Boss\\RoboBoss\\Poing.png",
+            "position_initial": [
+                552,
+                260
+            ],
+            "visible": true
+        },
+        "2": {
+            "name": "Poing_gauche",
+            "type": "Sprite",
+            "event_dict": {
+                "0": {
+                    "name": "agrandir_point_g",
+                    "type": "Changer la taille",
+                    "start_frame": 0,
+                    "end_frame": 0,
+                    "new_size": [
+                        84,
+                        84
+                    ]
+                },
+                "1": {
+                    "name": "Rotater_poing_g",
+                    "type": "Pivoter",
+                    "start_frame": 0,
+                    "end_frame": 0,
+                    "angle": 0.0
+                },
+                "2": {
+                    "name": "Tremble_1gauche",
+                    "type": "Se d\u00e9placer vers",
+                    "start_frame": 0,
+                    "end_frame": 10,
+                    "destination": [
+                        21,
+                        260
+                    ]
+                },
+                "3": {
+                    "name": "Tremble_2gauche",
+                    "type": "Se d\u00e9placer vers",
+                    "start_frame": 10,
+                    "end_frame": 20,
+                    "destination": [
+                        11,
+                        260
+                    ]
+                },
+                "9": {
+                    "name": "Tremble_8gauche",
+                    "type": "Se d\u00e9placer vers",
+                    "start_frame": 70,
+                    "end_frame": 80,
+                    "destination": [
+                        11,
+                        260
+                    ]
+                },
+                "4": {
+                    "name": "Tremble_3gauche",
+                    "type": "Se d\u00e9placer vers",
+                    "start_frame": 20,
+                    "end_frame": 30,
+                    "destination": [
+                        21,
+                        260
+                    ]
+                },
+                "5": {
+                    "name": "Tremble_4gauche",
+                    "type": "Se d\u00e9placer vers",
+                    "start_frame": 30,
+                    "end_frame": 40,
+                    "destination": [
+                        11,
+                        260
+                    ]
+                },
+                "6": {
+                    "name": "Tremble_5gauche",
+                    "type": "Se d\u00e9placer vers",
+                    "start_frame": 40,
+                    "end_frame": 50,
+                    "destination": [
+                        21,
+                        260
+                    ]
+                },
+                "7": {
+                    "name": "Tremble_6gauche",
+                    "type": "Se d\u00e9placer vers",
+                    "start_frame": 50,
+                    "end_frame": 60,
+                    "destination": [
+                        11,
+                        260
+                    ]
+                },
+                "8": {
+                    "name": "Tremble_7gauche",
+                    "type": "Se d\u00e9placer vers",
+                    "start_frame": 60,
+                    "end_frame": 70,
+                    "destination": [
+                        21,
+                        260
+                    ]
+                },
+                "10": {
+                    "name": "rotaterpoinggauche",
+                    "type": "Pivoter",
+                    "start_frame": 0,
+                    "end_frame": 0,
+                    "angle": -90.0
+                },
+                "11": {
+                    "name": "opacit\u00e9gauche",
+                    "type": "Changer l'opacit\u00e9",
+                    "start_frame": 0,
+                    "end_frame": 190,
+                    "opacity": 0
+                }
+            },
+            "sprite_path": "Source/img/Boss/RoboBoss/Poinggauche.png",
+            "position_initial": [
+                16,
+                260
+            ],
+            "visible": true
+        },
+        "3": {
+            "name": "cockpit",
+            "type": "Sprite",
+            "event_dict": {
+                "0": {
+                    "name": "Tremble_1",
+                    "type": "Se d\u00e9placer vers",
+                    "start_frame": 0,
+                    "end_frame": 10,
+                    "destination": [
+                        275,
+                        190
+                    ]
+                },
+                "1": {
+                    "name": "Tremble_2",
+                    "type": "Se d\u00e9placer vers",
+                    "start_frame": 10,
+                    "end_frame": 20,
+                    "destination": [
+                        265,
+                        190
+                    ]
+                },
+                "2": {
+                    "name": "Tremble_3",
+                    "type": "Se d\u00e9placer vers",
+                    "start_frame": 20,
+                    "end_frame": 30,
+                    "destination": [
+                        275,
+                        190
+                    ]
+                },
+                "3": {
+                    "name": "Tremble_4",
+                    "type": "Se d\u00e9placer vers",
+                    "start_frame": 30,
+                    "end_frame": 40,
+                    "destination": [
+                        265,
+                        190
+                    ]
+                },
+                "4": {
+                    "name": "Tremble_5",
+                    "type": "Se d\u00e9placer vers",
+                    "start_frame": 40,
+                    "end_frame": 50,
+                    "destination": [
+                        275,
+                        190
+                    ]
+                },
+                "5": {
+                    "name": "Tremble_6",
+                    "type": "Se d\u00e9placer vers",
+                    "start_frame": 50,
+                    "end_frame": 60,
+                    "destination": [
+                        265,
+                        190
+                    ]
+                },
+                "6": {
+                    "name": "Tremble_7",
+                    "type": "Se d\u00e9placer vers",
+                    "start_frame": 60,
+                    "end_frame": 70,
+                    "destination": [
+                        275,
+                        190
+                    ]
+                },
+                "7": {
+                    "name": "Tremble_8",
+                    "type": "Se d\u00e9placer vers",
+                    "start_frame": 70,
+                    "end_frame": 80,
+                    "destination": [
+                        265,
+                        190
+                    ]
+                },
+                "8": {
+                    "name": "opacit\u00e9cockpit",
+                    "type": "Changer l'opacit\u00e9",
+                    "start_frame": 0,
+                    "end_frame": 190,
+                    "opacity": 0
+                }
+            },
+            "sprite_path": "Source/img/Boss/RoboBoss/Cockpit.png",
+            "position_initial": [
+                270,
+                190
+            ],
+            "visible": true
+        },
+        "4": {
+            "name": "trou_1",
+            "type": "Sprite",
+            "event_dict": {
+                "0": {
+                    "name": "Tremble_1",
+                    "type": "Se d\u00e9placer vers",
+                    "start_frame": 0,
+                    "end_frame": 10,
+                    "destination": [
+                        115,
+                        90
+                    ]
+                },
+                "7": {
+                    "name": "opacit\u00e9trou_1",
+                    "type": "Changer l'opacit\u00e9",
+                    "start_frame": 0,
+                    "end_frame": 190,
+                    "opacity": 0
+                },
+                "1": {
+                    "name": "Tremble_2",
+                    "type": "Se d\u00e9placer vers",
+                    "start_frame": 10,
+                    "end_frame": 20,
+                    "destination": [
+                        105,
+                        90
+                    ]
+                },
+                "2": {
+                    "name": "Tremble_3",
+                    "type": "Se d\u00e9placer vers",
+                    "start_frame": 20,
+                    "end_frame": 30,
+                    "destination": [
+                        115,
+                        90
+                    ]
+                },
+                "3": {
+                    "name": "Tremble_4",
+                    "type": "Se d\u00e9placer vers",
+                    "start_frame": 30,
+                    "end_frame": 40,
+                    "destination": [
+                        105,
+                        90
+                    ]
+                },
+                "4": {
+                    "name": "Tremble_5",
+                    "type": "Se d\u00e9placer vers",
+                    "start_frame": 40,
+                    "end_frame": 50,
+                    "destination": [
+                        115,
+                        90
+                    ]
+                },
+                "5": {
+                    "name": "Tremble_6",
+                    "type": "Se d\u00e9placer vers",
+                    "start_frame": 50,
+                    "end_frame": 60,
+                    "destination": [
+                        105,
+                        90
+                    ]
+                },
+                "6": {
+                    "name": "Tremble_7",
+                    "type": "Se d\u00e9placer vers",
+                    "start_frame": 60,
+                    "end_frame": 70,
+                    "destination": [
+                        115,
+                        90
+                    ]
+                }
+            },
+            "sprite_path": "Source\\img\\Boss\\RoboBoss\\Trou.png",
+            "position_initial": [
+                110,
+                90
+            ],
+            "visible": true
+        },
+        "5": {
+            "name": "trou_2",
+            "type": "Sprite",
+            "event_dict": {
+                "0": {
+                    "name": "Tremble_1",
+                    "type": "Se d\u00e9placer vers",
+                    "start_frame": 0,
+                    "end_frame": 10,
+                    "destination": [
+                        435,
+                        90
+                    ]
+                },
+                "1": {
+                    "name": "Tremble_2",
+                    "type": "Se d\u00e9placer vers",
+                    "start_frame": 10,
+                    "end_frame": 20,
+                    "destination": [
+                        425,
+                        90
+                    ]
+                },
+                "2": {
+                    "name": "Tremble_3",
+                    "type": "Se d\u00e9placer vers",
+                    "start_frame": 20,
+                    "end_frame": 30,
+                    "destination": [
+                        435,
+                        90
+                    ]
+                },
+                "3": {
+                    "name": "Tremble_4",
+                    "type": "Se d\u00e9placer vers",
+                    "start_frame": 30,
+                    "end_frame": 40,
+                    "destination": [
+                        425,
+                        90
+                    ]
+                },
+                "4": {
+                    "name": "Tremble_5",
+                    "type": "Se d\u00e9placer vers",
+                    "start_frame": 40,
+                    "end_frame": 50,
+                    "destination": [
+                        435,
+                        90
+                    ]
+                },
+                "5": {
+                    "name": "Tremble_6",
+                    "type": "Se d\u00e9placer vers",
+                    "start_frame": 50,
+                    "end_frame": 60,
+                    "destination": [
+                        425,
+                        90
+                    ]
+                },
+                "7": {
+                    "name": "Tremble_8",
+                    "type": "Se d\u00e9placer vers",
+                    "start_frame": 70,
+                    "end_frame": 80,
+                    "destination": [
+                        425,
+                        90
+                    ]
+                },
+                "6": {
+                    "name": "Tremble_7",
+                    "type": "Se d\u00e9placer vers",
+                    "start_frame": 60,
+                    "end_frame": 70,
+                    "destination": [
+                        435,
+                        90
+                    ]
+                },
+                "8": {
+                    "name": "opacit\u00e9trou_2",
+                    "type": "Changer l'opacit\u00e9",
+                    "start_frame": 0,
+                    "end_frame": 190,
+                    "opacity": 0
+                }
+            },
+            "sprite_path": "Source\\img\\Boss\\RoboBoss\\Trou.png",
+            "position_initial": [
+                430,
+                90
+            ],
+            "visible": true
+        },
+        "6": {
+            "name": "Vaisseau",
+            "type": "Sprite",
+            "event_dict": {},
+            "sprite_path": "Source\\img\\player\\vaisseau\\spr_04_player_spaceship.png",
+            "position_initial": [
+                290,
+                520
+            ],
+            "visible": true
+        },
+        "7": {
+            "name": "Explosion_1",
+            "type": "Sprite Anim\u00e9",
+            "event_dict": {
+                "0": {
+                    "name": "Explosion_play",
+                    "type": "Play",
+                    "frame": 1,
+                    "speed": 2.0
+                },
+                "1": {
+                    "name": "Explosion_petit",
+                    "type": "Changer la taille",
+                    "start_frame": 0,
+                    "end_frame": 0,
+                    "new_size": [
+                        100,
+                        135
+                    ]
+                }
+            },
+            "sprite_path": "Source/img/Boss/RoboBoss/explosion.png",
+            "position_initial": [
+                441,
+                164
+            ],
+            "visible": true,
+            "is_vertical": false,
+            "mono_sprite_size": [
+                200,
+                282
+            ]
+        },
+        "8": {
+            "name": "Explosion_2",
+            "type": "Sprite Anim\u00e9",
+            "event_dict": {
+                "0": {
+                    "name": "Explosion_play",
+                    "type": "Play",
+                    "frame": 60,
+                    "speed": 2.0
+                },
+                "1": {
+                    "name": "Explosion_taille",
+                    "type": "Changer la taille",
+                    "start_frame": 0,
+                    "end_frame": 0,
+                    "new_size": [
+                        150,
+                        200
+                    ]
+                }
+            },
+            "sprite_path": "Source/img/Boss/RoboBoss/explosion.png",
+            "position_initial": [
+                84,
+                66
+            ],
+            "visible": true,
+            "is_vertical": false,
+            "mono_sprite_size": [
+                200,
+                282
+            ]
+        },
+        "9": {
+            "name": "Explosion_3",
+            "type": "Sprite Anim\u00e9",
+            "event_dict": {
+                "0": {
+                    "name": "Explosion_play",
+                    "type": "Play",
+                    "frame": 75,
+                    "speed": 2.0
+                },
+                "1": {
+                    "name": "Explosion_taille",
+                    "type": "Changer la taille",
+                    "start_frame": 0,
+                    "end_frame": 0,
+                    "new_size": [
+                        150,
+                        211
+                    ]
+                }
+            },
+            "sprite_path": "Source/img/Boss/RoboBoss/explosion.png",
+            "position_initial": [
+                399,
+                0
+            ],
+            "visible": true,
+            "is_vertical": false,
+            "mono_sprite_size": [
+                200,
+                282
+            ]
+        },
+        "10": {
+            "name": "Explosion_4",
+            "type": "Sprite Anim\u00e9",
+            "event_dict": {
+                "0": {
+                    "name": "Explosion_play",
+                    "type": "Play",
+                    "frame": 25,
+                    "speed": 2.0
+                },
+                "1": {
+                    "name": "Explosion_taille",
+                    "type": "Changer la taille",
+                    "start_frame": 0,
+                    "end_frame": 0,
+                    "new_size": [
+                        100,
+                        141
+                    ]
+                }
+            },
+            "sprite_path": "Source/img/Boss/RoboBoss/explosion.png",
+            "position_initial": [
+                0,
+                2
+            ],
+            "visible": true,
+            "is_vertical": false,
+            "mono_sprite_size": [
+                200,
+                282
+            ]
+        },
+        "11": {
+            "name": "CARR\u00c9 noir",
+            "type": "Sprite",
+            "event_dict": {
+                "0": {
+                    "name": "opacit\u00e9_carr\u00e9",
+                    "type": "Changer l'opacit\u00e9",
+                    "start_frame": 0,
+                    "end_frame": 0,
+                    "opacity": 0
+                },
+                "1": {
+                    "name": "opacit\u00e9_carr\u00e9_2",
+                    "type": "Changer l'opacit\u00e9",
+                    "start_frame": 0,
+                    "end_frame": 190,
+                    "opacity": 250
+                }
+            },
+            "sprite_path": "Source/img/Boss/RoboBoss/carr\u00e9_noir.png",
+            "position_initial": [
+                0,
+                0
+            ],
+            "visible": true
+        }
+    }
+}

@@ -1,0 +1,188 @@
+{
+    "name": "BossIntro",
+    "duration": 387,
+    "screen_size": [
+        640,
+        780
+    ],
+    "comment": "IntroDuBoss\n\n\n\n\n\n",
+    "element": {
+        "0": {
+            "name": "ShadowBoss",
+            "type": "Sprite",
+            "event_dict": {
+                "0": {
+                    "name": "MoveDown",
+                    "type": "Se d\u00e9placer vers",
+                    "start_frame": 0,
+                    "end_frame": 95,
+                    "destination": [
+                        0,
+                        0
+                    ]
+                },
+                "1": {
+                    "name": "hide",
+                    "type": "Cacher",
+                    "frame": 95
+                }
+            },
+            "sprite_path": "Source/img/Boss/spr_31_full_anguille_shadow.png",
+            "position_initial": [
+                0,
+                -400
+            ],
+            "visible": true
+        },
+        "1": {
+            "name": "Boss Title",
+            "type": "Texte",
+            "event_dict": {
+                "0": {
+                    "name": "Afficher le titre",
+                    "type": "Afficher lettre par lettre",
+                    "start_frame": 117,
+                    "end_frame": 327,
+                    "first_letter_id": 0,
+                    "end_letter_id": 11,
+                    "font_size": 58
+                },
+                "1": {
+                    "name": "Disparition Text",
+                    "type": "Changer l'opacit\u00e9",
+                    "start_frame": 327,
+                    "end_frame": 387,
+                    "opacity": 0
+                }
+            },
+            "font_path": "Source/Font/prstart.ttf",
+            "text": "Boss",
+            "position_initial": [
+                215,
+                470
+            ]
+        },
+        "2": {
+            "name": "BossTheme",
+            "type": "Musique avec intro unique",
+            "event_dict": {
+                "0": {
+                    "name": "Play",
+                    "type": "Jouer (Intro + Musique)",
+                    "frame": 1,
+                    "looping": true
+                }
+            },
+            "intro_music_path": "Source/music/msc_04_anguille_boss_intro.ogg",
+            "main_music_path": "Source/music/msc_05_anguille_boss_loop.ogg"
+        },
+        "3": {
+            "name": "tourelle gauche",
+            "type": "Sprite",
+            "event_dict": {
+                "0": {
+                    "name": "montre",
+                    "type": "Montrer",
+                    "frame": 95
+                },
+                "1": {
+                    "name": "InitialScale",
+                    "type": "Changer la taille",
+                    "start_frame": 0,
+                    "end_frame": 0,
+                    "new_size": [
+                        99,
+                        113
+                    ]
+                }
+            },
+            "sprite_path": "Source/img/Boss/Turret/spr_39_turret.png",
+            "position_initial": [
+                20,
+                270
+            ],
+            "visible": false
+        },
+        "4": {
+            "name": "tourelle droite",
+            "type": "Sprite",
+            "event_dict": {
+                "0": {
+                    "name": "montre",
+                    "type": "Montrer",
+                    "frame": 95
+                },
+                "1": {
+                    "name": "InitialScale",
+                    "type": "Changer la taille",
+                    "start_frame": 0,
+                    "end_frame": 0,
+                    "new_size": [
+                        99,
+                        113
+                    ]
+                }
+            },
+            "sprite_path": "Source/img/Boss/Turret/spr_39_turret.png",
+            "position_initial": [
+                530,
+                270
+            ],
+            "visible": false
+        },
+        "5": {
+            "name": "Anguille",
+            "type": "Sprite",
+            "event_dict": {
+                "0": {
+                    "name": "montre",
+                    "type": "Montrer",
+                    "frame": 95
+                },
+                "1": {
+                    "name": "InitialScale",
+                    "type": "Changer la taille",
+                    "start_frame": 0,
+                    "end_frame": 0,
+                    "new_size": [
+                        251,
+                        295
+                    ]
+                }
+            },
+            "sprite_path": "Source/img/Boss/Anguille/spr_33_anguille_eye_colosed.png",
+            "position_initial": [
+                170,
+                0
+            ],
+            "visible": false
+        },
+        "6": {
+            "name": "forcefield",
+            "type": "Sprite",
+            "event_dict": {
+                "0": {
+                    "name": "montre",
+                    "type": "Montrer",
+                    "frame": 95
+                },
+                "1": {
+                    "name": "InitialScale",
+                    "type": "Changer la taille",
+                    "start_frame": 0,
+                    "end_frame": 0,
+                    "new_size": [
+                        655,
+                        300
+                    ]
+                }
+            },
+            "sprite_path": "Source/img/Boss/Forcefield/spr_37_forcefield.png",
+            "position_initial": [
+                0,
+                0
+            ],
+            "visible": false
+        }
+    }
+}

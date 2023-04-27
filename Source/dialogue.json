@@ -1,0 +1,583 @@
+{
+    "Intro_Wave_1":{
+        "dialogs":[
+          {
+            "speaker_id": 0,
+            "dialog": "Von Jimmy, vous venez de quitter l'atmosphère d'Alpha-B, que comptez-vous faire ?"
+          },
+          {
+            "speaker_id": 1,
+            "dialog": "Ce que vous et vos Hommes ne faites pas. Je vais repousser cette invasion extra-terrestre avant qu'il ne soit trop tard."
+          },
+          {
+            "speaker_id": 0,
+            "dialog": "Bien que je sois de votre côté, nous n'avons aucune certitude que la planète Oméga-A a des intentions agreéssives. La prudence est de mise !"
+          },
+          {
+              "speaker_id":1,
+              "dialog": "Et alors ? Je ne prends pas le risque d'une attaque surprise ! D'ailleurs plutôt que de m'agacer avec votre prudence, vous pourriez m'expliquer comment fonctionne ce nouveau système de commande ?"
+          },
+          {
+              "speaker_id":0,
+              "dialog": "Un nouveau système de commande ? Je n'en ai pas entendu parler. Doc ! Tu as des informations sur un nouveau système de commande ?"
+          },
+          {
+              "speaker_id":2,
+              "dialog": "Oui ! Les écoles de pilotage ont demandé que l'on remplace les contrôles complexes de nos vaisseaux par des claviers que les jeunes maitrisent."
+          },
+          {
+              "speaker_id":1,
+              "dialog": "Et du coup comment ça marche ?"
+          },
+          {
+              "speaker_id":2,
+              "dialog": "Il suffit de se servir des flèches directionnelles pour se déplacer et de la barre d'espace pour tirer, aussi simple que ça"
+          },
+          {
+              "speaker_id":1,
+              "dialog": "Merci Doc ! Tiens Voilà des aliens."
+          }
+      ],
+        "speakers":[
+                  {
+                    "name": "Colonel",
+                    "sprite" : "spr_51_marine_pilot_colonel.png"
+                  },
+                  {
+                    "name": "Von Jimmy",
+                    "sprite" : "von_jimmy.png"
+                  },
+                  {
+                    "name": "Doc",
+                    "sprite" : "docteur_2.png"
+                  }
+                ]
+      },
+    "Intro_Wave_2":{
+        "dialogs": [
+          {
+            "speaker_id": 1,
+            "dialog": "Et bam !!! Je suis vraiment le meilleur pilote !"
+          },
+          {
+            "speaker_id": 0,
+            "dialog": "Calmez vous Von Jimmy, il reste encore beaucoup d'aliens au dessus de la planète !"
+          },
+          {
+            "speaker_id": 1,
+            "dialog": "Pour le moment, colonel, pour le moment..."
+          },
+          {
+            "speaker_id": 2,
+            "dialog": "y?HM5\u001EBYQ\u0004!jTq\u0005eT\u0014\u007F{b\u000FPY$T>\"t\u00036X\u0007\u0005@N6\u001ARY\u0016.h+u\u0011\\,\u0015MTJ',\u0001\u0005Qy@-r\u0007--\bP\u007FP1.T\u0004$\u001Dh3u\u0013/X\u0011C\u007FP1.MI+T8\u001Ey>1&\b~BI0-SI^\u0015<1g\u000F1\u001DC\u007F"
+          },
+          {
+            "speaker_id": 1,
+            "dialog": "Que dit-il ?"
+          },
+          {
+            "speaker_id": 0,
+            "dialog": "Il semble parler une autre langue. Je vais activer la traduction des messages. **Traduction Automatique Activée**"
+          },
+          {
+            "speaker_id": 2,
+            "dialog": "Vaisseau PY-NSI-16 ! Vous venez d'attaquer nos troupes ! Expliquez vous si vous ne voulez pas une contre-attaque !"
+          },
+          {
+            "speaker_id": 1,
+            "dialog": "Je n'ai rien fait de mal, je ne fais que défendre ma planète ! "
+          },
+          {
+            "speaker_id": 2,
+            "dialog": "Très bien, vous ne nous laissez aucun choix. Envoyez les ovnis !!"
+          },
+          {
+            "speaker_id": 0,
+            "dialog": "Bon bah, je vous laisse régler ça Von Jimmy, prenez garde aux bombes que placent leurs ovnis, je vais voir avec le gouvernement que faire désormais."
+          }
+        ],
+        "speakers":[
+                  {
+                    "name": "Colonel",
+                    "sprite" : "spr_51_marine_pilot_colonel.png"
+                  },
+                  {
+                    "name": "Von Jimmy",
+                    "sprite" : "von_jimmy.png"
+                  },
+                  {
+                    "name": "Chef Alien",
+                    "sprite": "enemy_king.png"
+                  }
+                ]
+      },
+    "Intro_Wave_3":{
+        "dialogs": [
+          {
+            "speaker_id": 1,
+            "dialog": "Les ovnis n'ont pas suffi à t'arrêter ! Tu es coriace !"
+          },
+          {
+            "speaker_id": 2,
+            "dialog": "Ce ne sont pas quelques misérables ovnis qui vont m'empêcher de défendre ma planète."
+          },
+          {
+            "speaker_id": 1,
+            "dialog": "Mais on ne vous a pas attaqué !!!"
+          },
+          {
+            "speaker_id": 3,
+            "dialog": "Vous aviez une armée stationnée au dessus de notre planète, avec des ovnis poseurs de bombes ! Ce n'est pas le genre de compagnie que l'on apporte pour une visite pacifique d'une planète voisine."
+          },
+          {
+            "speaker_id": 1,
+            "dialog": "C'était le pique-nique annuel de l'Armée Tactique de Triple Appréhension pour les Quartiers Urbains Experimentés, (L'A.T.T.A.Q.U.E)"
+          },
+          {
+            "speaker_id": 2,
+            "dialog": "..."
+          },
+          {
+            "speaker_id": 1,
+            "dialog": "Donc maintenant si cela ne vous dérange pas, j'ai un pique-nique à défendre"
+          },
+          {
+            "speaker_id": 3,
+            "dialog": "Pff... Déseperant. D'ailleurs Von Jimmy, la présidente souhaite vous parler..."
+          },
+          {
+            "speaker_id": 2,
+            "dialog": "Qu'est ce qu'elle me veut ?"
+          },
+          {
+            "speaker_id": 3,
+            "dialog": "Vous venez de déclencher une guerre, ça doit avoir un lien..."
+          },
+          {
+            "speaker_id": 2,
+            "dialog": "Je verrai ça plus tard. Par contre, est-ce possible d'augmenter la puissance du vaisseau ? Je crains qu'ils n'aient réservé leurs meilleurs guerriers pour la suite."
+          },
+          {
+            "speaker_id": 3,
+            "dialog": "Excellente question... DOOOOOOOOOOOOOOC !"
+          },
+          {
+            "speaker_id": 0,
+            "dialog": "Oui ?"
+          },
+          {
+            "speaker_id": 3,
+            "dialog": "Est ce qu'on peut améliorer le vaisseau de Von Jimmy à distance ?"
+          },
+          {
+            "speaker_id": 0,
+            "dialog": "Oui! Comme par hasard, j'ai développé le tir double. Il vous permet de tirer deux fois plus de balles. Par contre il faudra faire attention, vous surchaufferez plus vite en utilisant ce mode de tir."
+          },
+          {
+            "speaker_id": 2,
+            "dialog": "Noté ! Comment je l'active ?"
+          },
+          {
+            "speaker_id": 0,
+            "dialog": "Vous appuyez sur 'C' sur le clavier pour avancer d'une arme, ici passer au tir double. Si jamais vous voulez retourner au tir simple, appuyez sur 'X'."
+          },
+          {
+            "speaker_id": 2,
+            "dialog": "Merci ! Tiens je crois qu'ils renvoient une salve d'ennemis. Je vais m'en débarasser !"
+          }
+        ],
+
+
+
+        "speakers":[
+                  {
+                    "name": "Doc",
+                    "sprite" : "docteur_2.png"
+                  },
+                  {
+                    "name": "Chef Alien",
+                    "sprite": "enemy_king.png"
+                  },
+                  {
+                    "name": "Von Jimmy",
+                    "sprite" : "von_jimmy.png"
+                  },
+                  {
+                    "name": "Colonel",
+                    "sprite" : "spr_51_marine_pilot_colonel.png"
+                  }
+        ]
+      },
+    "Intro_Wave_4": {
+      "dialogs": [
+		  {
+			"speaker_id": 0,
+			"dialog": "VON JIMMY !!"
+		  },  
+		  {
+			"speaker_id": 1,
+			"dialog": "Oui ?"
+		  },
+		  {
+			"speaker_id": 0,
+			"dialog": "Vous n'avez pas honte de déclencher une guerre en mettant de nombreux civils en danger ?! C'est irresponsable de votre part !"
+		  },
+		  {
+			"speaker_id": 1,
+			"dialog": "Jusque là, rien de nouveau."
+		  },
+		  {
+			"speaker_id": 0,
+			"dialog": "Cependant, je dois admettre que vous aviez raison. Ces aliens étaient agressifs. Ainsi, moi, présidente de notre beau pays, j'ordonne que l'on envoie des renfort coûte que coûte."
+		  },
+		  {
+			"speaker_id": 2,
+			"dialog": "Mais, madame la présidente, ne serait-il pas plus cohérent de réunir les dirigeants de la planète pour établir un plan plutôt que de foncer tête baissée dans cette bataille ?"
+		  },
+		  {
+			"speaker_id": 0,
+			"dialog": "Qui a demandé votre avis ? Nous pouvons passer pour des héros, malgré cette prise de risques considérable !"
+		  },
+		  {
+			"speaker_id": 2,
+			"dialog": "Pfff...."
+		  },
+		  {
+			"speaker_id": 1,
+			"dialog": "C'est tout ?"
+		  },
+		  {
+			"speaker_id": 0,
+			"dialog": "Oui vous pouvez retourner à vos occupations."
+		  },
+		  {
+			"speaker_id": 1,
+			"dialog": "Allons-y je vais casser de l'alien !!"
+		  }
+      ],
+      "speakers": [
+        {
+          "name": "Présidente",
+          "sprite": "ms_presidente.png"
+        },
+        {
+          "name": "Von jimmy",
+          "sprite": "von_jimmy.png"
+        },
+		{
+		  "name": "Colonel",
+		  "sprite" : "spr_51_marine_pilot_colonel.png"
+		}
+      ]
+    },
+    "Intro_Wave_5": {
+      "dialogs": [
+		  {
+			"speaker_id": 0,
+			"dialog": "Bon, cette fois j'en ai assez de ces pertes ! Vous m'aviez promis une victoire rapide ! Comment se fait-il qu'un seul vaisseau de la planète Alpha-B ait réussi à percer nos lignes d'attaque, qui étaient censées être redoutables ?"
+		  },
+		  {
+			"speaker_id": 1,
+			"dialog": "Je vous promet, Ô ma reine, que ceci n'est qu'un léger contre-temps. Tout sera fait en temps et en heure."
+		  },
+		  {
+			"speaker_id": 2,
+			"dialog": "Et vous croyez que je vais vous laisser faire peut-être ?"
+		  },
+		  {
+			"speaker_id": 0,
+			"dialog": "Il nous comprend !?"
+		  },
+		  {
+			"speaker_id": 1,
+			"dialog": "Oui, ils ont des traducteurs, votre majesté."
+		  },
+		  {
+			"speaker_id": 2,
+			"dialog": "Bon, c'est pas tout mais si vous pouviez être plus rapides à vous faire battre ça m'arrangerait, je dois passer un coup de bêche dans mon jardin après et j'aimerais être rentré avant la nuit."
+		  },
+		  {
+			"speaker_id": 0,
+			"dialog": "Ha ! C'est la meilleure celle-là. Il ne croit pas sérieusement nous avoir si vite ? Que comptez-vous faire pour empêcher ça ?"
+		  },
+		  {
+			"speaker_id": 1,
+			"dialog": "Votre majesté, notre régiment le plus experimenté s'apprête à lancer un assaut contre lui !"
+		  },
+		  {
+			"speaker_id": 0,
+			"dialog": "Très bien. Vous pouvez disposer, je vais faire de même."
+		  },
+		  {
+			"speaker_id": 2,
+			"dialog": "Mince alors... Je vais peut-être avoir besoin de plus de matériel pour affronter ce régiment. DOOOOOOOOOOOOOOC !"
+		  },
+		  {
+			"speaker_id": 3,
+			"dialog": "Oui ?"
+		  },
+		  {
+			"speaker_id": 2,
+			"dialog": "Est-ce que tu aurais une nouvelle arme pour moi s'il te plait ?"
+		  },
+		  {
+			"speaker_id": 3,
+			"dialog": "C'est ton jour de chance car je viens de développer l'octoshot qui permet de tirer dans 8 directions. Hélas cela fait surchauffer le vaisseau très rapidement, c'est pourquoi est surtout utile en mode en overdrive."
+		  },
+		  {
+			"speaker_id": 2,
+			"dialog": "Merci. Pour l'activer c'est comme avant ?"
+		  },
+		  {
+			"speaker_id": 3,
+			"dialog": "Oui, c'est toujours 'C' pour l'augmenter et 'X' pour diminuer le nombre de balle tirées !"
+		  },
+		  {
+			"speaker_id": 2,
+			"dialog": "Impeccable !! Maintenant je vais m'occuper de ce régiment !"
+		  }
+      ],
+      "speakers": [
+			{
+			  "name": "Reine Alien",
+			  "sprite": "reinealien.png"
+			},
+			{
+			  "name": "Chef Alien",
+			  "sprite": "enemy_king.png"
+			},
+			{
+			  "name": "Von jimmy",
+			  "sprite": "von_jimmy.png"
+			},
+			{
+			  "name": "Doc",
+			  "sprite" : "docteur_2.png"
+			}
+      ]
+    },
+    "Intro_Anguille": {
+      "dialogs": [
+      {
+      "speaker_id": 0,
+      "dialog": "Qu'est ce que c'est que ça ? Ce héros d'Alpha-B a décimé la quasi totalité de mon armée ! C'est ça que vous appelez une victoire éclatante !?"
+      },
+      {
+        "speaker_id": 1,
+        "dialog": "Ô ma reine, ne vous inquiétez pas, Il nous reste encore l'A.N.G.U.I.L.L.E."
+      },
+      {
+        "speaker_id": 0,
+        "dialog": "Vous connaissez le prix de cette arme, et puis elle n'est même pas encore finie..."
+      },
+      {
+        "speaker_id": 1,
+        "dialog": "Oui, mais je ne pense pas que nous ayons le choix, votre majesté."
+      },
+      {
+        "speaker_id": 0,
+        "dialog": "Soit."        
+      },
+      {
+        "speaker_id": 2,
+        "dialog": "Vous avez entendu Von Jimmy ?"        
+      },
+      {
+        "speaker_id": 3,
+        "dialog": "Oui, Oui... C'est sûrement un nom de code... L'A.N.G.U.I.L.L.E."        
+      },
+      {
+        "speaker_id": 1,
+        "dialog": "En effet, L'A.N.G.U.I.L.L.E est un acronyme pour: Arme Nationale, Globale, Universelle, Idéale et Légale de Laboratoire pour l'Élimination."
+      },
+      {
+        "speaker_id": 3,
+        "dialog": "Cela me semble un peu tiré par les cheuveux... Bon où elle est cette arme, que je l'explose avec classe ?" 
+      },
+      {
+        "speaker_id": 1,
+        "dialog": "Elle arrive maintenant !" 
+      },
+      {
+        "speaker_id": 4,
+        "dialog": "Mes capteurs détectent que leur arme dispose d'un canon sur chaque côté. Tant qu'ils seront actifs, un champ de force protègera le coeur de l'arme." 
+      },
+      {
+        "speaker_id": 3,
+        "dialog": "Bien reçu.  " 
+      }
+      ],
+      "speakers": [
+      {
+        "name": "Reine Alien",
+        "sprite": "reinealien.png"
+      },
+      {
+        "name": "Chef Alien",
+        "sprite": "enemy_king.png"
+      },
+      {
+        "name": "Colonel",
+        "sprite": "spr_51_marine_pilot_colonel.png"
+      },
+      {
+        "name": "Von jimmy",
+        "sprite": "von_jimmy.png"
+      },
+      {
+        "name": "Doc",
+        "sprite": "docteur_2.png"
+      }
+      ]
+    },
+    "Intro_Wave_6": {
+      "dialogs":[
+        {
+          "speaker_id": 0, 
+          "dialog": "Oh non ! Mon A.N.G.U.I.L.L.E, ma magnifique A.N.G.U.I.L.L.E !! Vous l'avez détruite !"
+        },
+        {
+          "speaker_id": 1,
+          "dialog": "Ô ma reine ! je ne sais plus quoi faire..."
+        },
+        {
+          "speaker_id": 0,
+          "dialog": "Envoyez les robots !"
+        },
+        {
+          "speaker_id": 1,
+          "dialog": "Quoi ?! Votre majesté, vous n'êtes pas sérieuse ? Si ?"
+        },
+        {
+          "speaker_id": 0,
+          "dialog": "Je suis on ne peut plus sérieuse. Envoyez-les tous, même ceux qui tirent des lasers !"
+        },
+        {
+          "speaker_id": 1,
+          "dialog": "Si telle est votre volonté, je vais ordonner l'attaque des robots."
+        },
+        {
+          "speaker_id": 0,
+          "dialog": "Bien, tenez moi au courant."
+        }
+      ],
+      "speakers": [
+      {
+        "name": "Reine Alien",
+        "sprite": "reinealien.png"
+      },
+      {
+        "name": "Chef Alien",
+        "sprite": "enemy_king.png"
+      }
+      ]
+    },
+    "Intro_Roboboss": {
+      "dialogs":[
+        {
+          "speaker_id": 1, 
+          "dialog": "Assez !!!! J'en ai assez de voir mon armée être décimée par un guignol avec un vaisseau en forme de triangle !"
+        },
+        {
+          "speaker_id": 0,
+          "dialog": "Calmez-vous, voyons. Tout n'est pas perdu..."
+        },
+        {
+          "speaker_id": 1,
+          "dialog": "Pardonnez-moi votre majesté mais je vais prendre ça entre mes mains."
+        },
+        {
+          "speaker_id": 0,
+          "dialog": "C'est-à-dire ? Je n'accepterai pas une autre défaite !"
+        },
+        { 
+          "speaker_id": 1,
+          "dialog": "Je vais prendre le Montrueusement Énorme Char d'Hyper Attaque (le M.E.C.H.A pour faire court) et détruire Von Jimmy une bonne fois pour toutes !"
+        },
+        {
+          "speaker_id": 3,
+          "dialog": "C'est vraiment votre truc de faire des abréviations tirées par les cheuveux... Bon passons, je vais détruire ce M.E.C.H.A et ainsi mettre fin à votre invasion !"
+        },
+        {
+          "speaker_id": 2,
+          "dialog": "Bien dit, Von Jimmy."
+        },
+        {
+          "speaker_id": 4,
+          "dialog": "Toute la planète Alpha-B est derrière vous !"          
+        },
+        {
+          "speaker_id": 5,
+          "dialog": "Et n'oubliez pas, le sort de la planète dépend de vous..."          
+        }
+      ],
+      "speakers": [
+      {
+        "name": "Reine Alien",
+        "sprite": "reinealien.png"
+      },
+      {
+        "name": "Chef Alien",
+        "sprite": "enemy_king.png"
+      },
+      {
+        "name": "Colonel",
+        "sprite": "spr_51_marine_pilot_colonel.png"
+      },
+      {
+        "name": "Von jimmy",
+        "sprite": "von_jimmy.png"
+      },
+      {
+        "name": "Doc",
+        "sprite": "docteur_2.png"
+      },
+      {
+        "name": "Présidente",
+        "sprite": "ms_presidente.png"
+      }
+      ]
+    },
+    "Gold_Pile": {
+      "dialogs":[
+        {
+          "speaker_id": 0, 
+          "dialog": "DOOOOOOOOOOOOOOC ?"
+        },
+        {
+          "speaker_id": 1,
+          "dialog": "Oui ?"
+        },
+        {
+          "speaker_id": 0,
+          "dialog": "Je viens de ramasser une pile dorée, à quoi ça sert ?"
+        },
+        {
+          "speaker_id": 1,
+          "dialog": "C'est très simple. Cela octroie un boost à votre vaisseau : dès que vous en avez récupéré 3, vous entrerez en overdrive, ce qui permet de ne pas surchauffer. "
+        },
+        {
+          "speaker_id": 0,
+          "dialog": "Pendant combien de temps je peux rester en overdrive ?"
+        },
+        {
+          "speaker_id": 1,
+          "dialog": "L'overdrive dure environ 25 secondes donc faites attention !"
+        },
+        {
+          "speaker_id": 0,
+          "dialog": "Ça marche, je retourne dégommer des aliens."
+        }
+      ],
+      "speakers": [
+      {
+        "name": "Von Jimmy",
+        "sprite": "von_jimmy.png"
+      },
+      {
+        "name": "Doc",
+        "sprite": "docteur_2.png"
+      }
+      ]
+    }
+}

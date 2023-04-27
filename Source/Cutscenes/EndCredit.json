@@ -1,0 +1,854 @@
+{
+    "name": "credit",
+    "duration": 2400,
+    "screen_size": [
+        640,
+        780
+    ],
+    "comment": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+    "element": {
+        "0": {
+            "name": "background",
+            "type": "Sprite",
+            "event_dict": {
+            },
+            "sprite_path": "Source/img/background_credit.png",
+            "position_initial": [
+                0,
+                0
+            ],
+            "visible": true
+        },
+        "1": {
+            "name": "credit",
+            "type": "Texte",
+            "event_dict": {
+                "0": {
+                    "name": "convert_image_credit",
+                    "type": "Convertir en image",
+                    "frame": 1,
+                    "font_size": 30
+                },
+                "1": {
+                    "name": "taille_credits",
+                    "type": "Convertir en image",
+                    "frame": 0,
+                    "font_size": 0
+                },
+                "2": {
+                    "name": "opacit\u00e9_credits",
+                    "type": "Changer l'opacit\u00e9",
+                    "start_frame": 0,
+                    "end_frame": 0,
+                    "opacity": 255
+                },
+                "3": {
+                    "name": "opacit\u00e9_credit",
+                    "type": "Changer l'opacit\u00e9",
+                    "start_frame": 200,
+                    "end_frame": 288,
+                    "opacity": 0
+                }
+            },
+            "font_path": "Source/Font/prstart.ttf",
+            "text": "Cr\u00e9dits",
+            "position_initial": [
+                220,
+                200
+            ]
+        },
+        "2": {
+            "name": "carr\u00e9 noir",
+            "type": "Sprite",
+            "event_dict": {
+                "0": {
+                    "name": "opacit\u00e9_carr\u00e9_noir",
+                    "type": "Changer l'opacit\u00e9",
+                    "start_frame": 0,
+                    "end_frame": 50,
+                    "opacity": 0
+                }
+            },
+            "sprite_path": "Source/img/Boss/RoboBoss/carr\u00e9_noir.png",
+            "position_initial": [
+                0,
+                0
+            ],
+            "visible": true
+        },
+        "3": {
+            "name": "alien_corp",
+            "type": "Texte",
+            "event_dict": {
+                "0": {
+                    "name": "convert_image_alien_corp",
+                    "type": "Convertir en image",
+                    "frame": 1,
+                    "font_size": 20
+                },
+                "1": {
+                    "name": "opacit\u00e9_alien_corp_1",
+                    "type": "Changer l'opacit\u00e9",
+                    "start_frame": 0,
+                    "end_frame": 0,
+                    "opacity": 0
+                },
+                "2": {
+                    "name": "opacit\u00e9_alien_corp_3",
+                    "type": "Changer l'opacit\u00e9",
+                    "start_frame": 200,
+                    "end_frame": 288,
+                    "opacity": 0
+                },
+                "3": {
+                    "name": "opacit\u00e9_alien_corp_2",
+                    "type": "Changer l'opacit\u00e9",
+                    "start_frame": 120,
+                    "end_frame": 130,
+                    "opacity": 255
+                }
+            },
+            "font_path": "Source/Font/prstart.ttf",
+            "text": "Une production Alien Corp.",
+            "position_initial": [
+                75,
+                270
+            ]
+        },
+        "4": {
+            "name": "Lead_programmer",
+            "type": "Texte",
+            "event_dict": {
+                "0": {
+                    "name": "convert_image_augustin",
+                    "type": "Convertir en image",
+                    "frame": 0,
+                    "font_size": 16
+                },
+                "1": {
+                    "name": "opacit\u00e9_augustin_1",
+                    "type": "Changer l'opacit\u00e9",
+                    "start_frame": 0,
+                    "end_frame": 0,
+                    "opacity": 0
+                },
+                "2": {
+                    "name": "opacit\u00e9_augustin_apparition",
+                    "type": "Changer l'opacit\u00e9",
+                    "start_frame": 288,
+                    "end_frame": 310,
+                    "opacity": 255
+                },
+                "3": {
+                    "name": "opacit\u00e9_augustin_fin",
+                    "type": "Changer l'opacit\u00e9",
+                    "start_frame": 330,
+                    "end_frame": 535,
+                    "opacity": 0
+                }
+            },
+            "font_path": "Source/Font/prstart.ttf",
+            "text": "Lead Programmer : Augustin Fourmy",
+            "position_initial": [
+                50,
+                200
+            ]
+        },
+        "5": {
+            "name": "background_game",
+            "type": "Sprite",
+            "event_dict": {
+                "0": {
+                    "name": "taille_asperite",
+                    "type": "Changer la taille",
+                    "start_frame": 0,
+                    "end_frame": 0,
+                    "new_size": [
+                        317,
+                        390
+                    ]
+                },
+                "1": {
+                    "name": "opacit\u00e9_aseprite_1",
+                    "type": "Changer l'opacit\u00e9",
+                    "start_frame": 0,
+                    "end_frame": 0,
+                    "opacity": 0
+                },
+                "2": {
+                    "name": "opacit\u00e9_aseprite_2",
+                    "type": "Changer l'opacit\u00e9",
+                    "start_frame": 576,
+                    "end_frame": 600,
+                    "opacity": 255
+                },
+                "3": {
+                    "name": "opacit\u00e9_aseprite_3",
+                    "type": "Changer l'opacit\u00e9",
+                    "start_frame": 680,
+                    "end_frame": 760,
+                    "opacity": 0
+                }
+            },
+            "sprite_path": "Source/img/spr_00_background.png",
+            "position_initial": [
+                185,
+                348
+            ],
+            "visible": true
+        },
+        "6": {
+            "name": "Guillaume_pomat",
+            "type": "Texte",
+            "event_dict": {
+                "0": {
+                    "name": "convert_image_guillaume_pomat",
+                    "type": "Convertir en image",
+                    "frame": 0,
+                    "font_size": 16
+                },
+                "1": {
+                    "name": "opacit\u00e9_pomat_1",
+                    "type": "Changer l'opacit\u00e9",
+                    "start_frame": 0,
+                    "end_frame": 0,
+                    "opacity": 0
+                },
+                "2": {
+                    "name": "opacit\u00e9_pomat_apparition",
+                    "type": "Changer l'opacit\u00e9",
+                    "start_frame": 820,
+                    "end_frame": 864,
+                    "opacity": 255
+                },
+                "3": {
+                    "name": "opacit\u00e9_pomat_fin",
+                    "type": "Changer l'opacit\u00e9",
+                    "start_frame": 960,
+                    "end_frame": 1020,
+                    "opacity": 0
+                }
+            },
+            "font_path": "Source/Font/prstart.ttf",
+            "text": "Music made by: Guillaume Pomat",
+            "position_initial": [
+                87,
+                200
+            ]
+        },
+        "7": {
+            "name": "premi\u00e8re_ver",
+            "type": "Sprite",
+            "event_dict": {
+                "0": {
+                    "name": "premier_ver_petit",
+                    "type": "Changer la taille",
+                    "start_frame": 0,
+                    "end_frame": 0,
+                    "new_size": [
+                        317,
+                        390
+                    ]
+                },
+                "1": {
+                    "name": "premier_ver_opacit\u00e9_1",
+                    "type": "Changer l'opacit\u00e9",
+                    "start_frame": 0,
+                    "end_frame": 0,
+                    "opacity": 0
+                },
+                "2": {
+                    "name": "premier_ver_opacit\u00e9_2",
+                    "type": "Changer l'opacit\u00e9",
+                    "start_frame": 280,
+                    "end_frame": 310,
+                    "opacity": 255
+                },
+                "3": {
+                    "name": "premier_ver_opacit\u00e9_4",
+                    "type": "Changer l'opacit\u00e9",
+                    "start_frame": 330,
+                    "end_frame": 535,
+                    "opacity": 0
+                }
+            },
+            "sprite_path": "Source/img/premi\u00e8re_ver.png",
+            "position_initial": [
+                185,
+                348
+            ],
+            "visible": true
+        },
+        "8": {
+            "name": "graphsime",
+            "type": "Texte",
+            "event_dict": {
+                "0": {
+                    "name": "convert_image_guillaume",
+                    "type": "Convertir en image",
+                    "frame": 0,
+                    "font_size": 16
+                },
+                "1": {
+                    "name": "opacit\u00e9_guillaume_1",
+                    "type": "Changer l'opacit\u00e9",
+                    "start_frame": 0,
+                    "end_frame": 0,
+                    "opacity": 0
+                },
+                "2": {
+                    "name": "opacit\u00e9_guillaume_2",
+                    "type": "Changer l'opacit\u00e9",
+                    "start_frame": 576,
+                    "end_frame": 600,
+                    "opacity": 255
+                },
+                "3": {
+                    "name": "opacit\u00e9_guillame_3",
+                    "type": "Changer l'opacit\u00e9",
+                    "start_frame": 680,
+                    "end_frame": 760,
+                    "opacity": 0
+                }
+            },
+            "font_path": "Source/Font/prstart.ttf",
+            "text": "Graphisme made by : Guillaume Augeraud",
+            "position_initial": [
+                25,
+                200
+            ]
+        },
+        "9": {
+            "name": "explosion",
+            "type": "Texte",
+            "event_dict": {
+                "0": {
+                    "name": "Toby_fox",
+                    "type": "Convertir en image",
+                    "frame": 0,
+                    "font_size": 13
+                },
+                "1": {
+                    "name": "opacit\u00e9_toby_fox_1",
+                    "type": "Changer l'opacit\u00e9",
+                    "start_frame": 0,
+                    "end_frame": 0,
+                    "opacity": 0
+                },
+                "2": {
+                    "name": "opacit\u00e9_toby_fox_2",
+                    "type": "Changer l'opacit\u00e9",
+                    "start_frame": 576,
+                    "end_frame": 600,
+                    "opacity": 255
+                },
+                "3": {
+                    "name": "opacit\u00e9_toby_fox_3",
+                    "type": "Changer l'opacit\u00e9",
+                    "start_frame": 680,
+                    "end_frame": 760,
+                    "opacity": 0
+                }
+            },
+            "font_path": "Source/Font/prstart.ttf",
+            "text": "(L'explosion a \u00e9t\u00e9 cr\u00e9e par Toby Fox)",
+            "position_initial": [
+                105,
+                100
+            ]
+        },
+        "10": {
+            "name": "musicien_audio",
+            "type": "Sprite",
+            "event_dict": {
+                "0": {
+                    "name": "opacit\u00e9_musique_visu",
+                    "type": "Changer l'opacit\u00e9",
+                    "start_frame": 0,
+                    "end_frame": 0,
+                    "opacity": 0
+                },
+                "1": {
+                    "name": "opacit\u00e9_musique_2",
+                    "type": "Changer l'opacit\u00e9",
+                    "start_frame": 820,
+                    "end_frame": 864,
+                    "opacity": 255
+                },
+                "2": {
+                    "name": "opacit\u00e9_musique_3",
+                    "type": "Changer l'opacit\u00e9",
+                    "start_frame": 960,
+                    "end_frame": 1020,
+                    "opacity": 0
+                },
+                "3": {
+                    "name": "taille_audio_visu",
+                    "type": "Changer la taille",
+                    "start_frame": 0,
+                    "end_frame": 0,
+                    "new_size": [
+                        514,
+                        196
+                    ]
+                }
+            },
+            "sprite_path": "Source/img/musique_cr\u00e9dits.png",
+            "position_initial": [
+                80,
+                300
+            ],
+            "visible": true
+        },
+        "11": {
+            "name": "Story",
+            "type": "Texte",
+            "event_dict": {
+                "0": {
+                    "name": "opacit\u00e9_story",
+                    "type": "Changer l'opacit\u00e9",
+                    "start_frame": 0,
+                    "end_frame": 0,
+                    "opacity": 0
+                },
+                "3": {
+                    "name": "convert_story_image",
+                    "type": "Convertir en image",
+                    "frame": 0,
+                    "font_size": 18
+                },
+                "1": {
+                    "name": "opacit\u00e9_story_2",
+                    "type": "Changer l'opacit\u00e9",
+                    "start_frame": 1050,
+                    "end_frame": 1152,
+                    "opacity": 255
+                },
+                "2": {
+                    "name": "opacit\u00e9_story_3",
+                    "type": "Changer l'opacit\u00e9",
+                    "start_frame": 1275,
+                    "end_frame": 1350,
+                    "opacity": 0
+                }
+            },
+            "font_path": "Source/Font/prstart.ttf",
+            "text": "Story made by : Alien Corp.",
+            "position_initial": [
+                70,
+                200
+            ]
+        },
+        "12": {
+            "name": "photo_de_nous_trois",
+            "type": "Sprite",
+            "event_dict": {
+                "0": {
+                    "name": "Trio_1",
+                    "type": "Changer l'opacit\u00e9",
+                    "start_frame": 0,
+                    "end_frame": 0,
+                    "opacity": 0
+                },
+                "1": {
+                    "name": "Trio_2",
+                    "type": "Changer l'opacit\u00e9",
+                    "start_frame": 1050,
+                    "end_frame": 1152,
+                    "opacity": 255
+                },
+                "2": {
+                    "name": "Trio_3",
+                    "type": "Changer l'opacit\u00e9",
+                    "start_frame": 1275,
+                    "end_frame": 1350,
+                    "opacity": 0
+                },
+                "3": {
+                    "name": "taille_trio",
+                    "type": "Changer la taille",
+                    "start_frame": 0,
+                    "end_frame": 0,
+                    "new_size": [
+                        400,
+                        300
+                    ]
+                }
+            },
+            "sprite_path": "Source/img/Trio.png",
+            "position_initial": [
+                120,
+                325
+            ],
+            "visible": true
+        },
+        "13": {
+            "name": "Special_thanks",
+            "type": "Texte",
+            "event_dict": {
+                "0": {
+                    "name": "Special_convert",
+                    "type": "Convertir en image",
+                    "frame": 0,
+                    "font_size": 20
+                },
+                "1": {
+                    "name": "opacit\u00e9_special_thanks",
+                    "type": "Changer l'opacit\u00e9",
+                    "start_frame": 0,
+                    "end_frame": 0,
+                    "opacity": 0
+                },
+                "2": {
+                    "name": "opacit\u00e9_special_thanks_3",
+                    "type": "Changer l'opacit\u00e9",
+                    "start_frame": 1395,
+                    "end_frame": 1440,
+                    "opacity": 255
+                },
+                "3": {
+                    "name": "opacit\u00e9_special_thanks_3",
+                    "type": "Changer l'opacit\u00e9",
+                    "start_frame": 1600,
+                    "end_frame": 1660,
+                    "opacity": 0
+                }
+            },
+            "font_path": "Source/Font/prstart.ttf",
+            "text": "Special Thanks to :",
+            "position_initial": [
+                150,
+                200
+            ]
+        },
+        "14": {
+            "name": "Monsieur Serren-Rosso",
+            "type": "Texte",
+            "event_dict": {
+                "0": {
+                    "name": "Convert_Serren_rosso",
+                    "type": "Convertir en image",
+                    "frame": 0,
+                    "font_size": 20
+                },
+                "1": {
+                    "name": "opacit\u00e9_Serren_rosso",
+                    "type": "Changer l'opacit\u00e9",
+                    "start_frame": 0,
+                    "end_frame": 0,
+                    "opacity": 0
+                },
+                "2": {
+                    "name": "opacit\u00e9_Serren_rosso_2",
+                    "type": "Changer l'opacit\u00e9",
+                    "start_frame": 1395,
+                    "end_frame": 1440,
+                    "opacity": 255
+                },
+                "3": {
+                    "name": "opacit\u00e9_Serren_rosso_3",
+                    "type": "Changer l'opacit\u00e9",
+                    "start_frame": 1600,
+                    "end_frame": 1660,
+                    "opacity": 0
+                }
+            },
+            "font_path": "Source/Font/prstart.ttf",
+            "text": "Monsieur Serren-Rosso",
+            "position_initial": [
+                125,
+                275
+            ]
+        },
+        "15": {
+            "name": "Notre Professeur",
+            "type": "Texte",
+            "event_dict": {
+                "0": {
+                    "name": "Convert_prof",
+                    "type": "Convertir en image",
+                    "frame": 0,
+                    "font_size": 20
+                },
+                "1": {
+                    "name": "opacit\u00e9_prof",
+                    "type": "Changer l'opacit\u00e9",
+                    "start_frame": 0,
+                    "end_frame": 0,
+                    "opacity": 0
+                },
+                "2": {
+                    "name": "opacit\u00e9_prof_2",
+                    "type": "Changer l'opacit\u00e9",
+                    "start_frame": 1395,
+                    "end_frame": 1440,
+                    "opacity": 255
+                },
+                "3": {
+                    "name": "opacit\u00e9_prof_3",
+                    "type": "Changer l'opacit\u00e9",
+                    "start_frame": 1600,
+                    "end_frame": 1660,
+                    "opacity": 0
+                }
+            },
+            "font_path": "Source/Font/prstart.ttf",
+            "text": "Notre professeur",
+            "position_initial": [
+                160,
+                325
+            ]
+        },
+        "16": {
+            "name": "Alan Turing",
+            "type": "Texte",
+            "event_dict": {
+                "0": {
+                    "name": "Convert_alan",
+                    "type": "Convertir en image",
+                    "frame": 0,
+                    "font_size": 15
+                },
+                "1": {
+                    "name": "opacit\u00e9_alan",
+                    "type": "Changer l'opacit\u00e9",
+                    "start_frame": 0,
+                    "end_frame": 0,
+                    "opacity": 0
+                },
+                "2": {
+                    "name": "opacit\u00e9_prof_2",
+                    "type": "Changer l'opacit\u00e9",
+                    "start_frame": 1689,
+                    "end_frame": 1728,
+                    "opacity": 255
+                },
+                "3": {
+                    "name": "opacit\u00e9_prof_3",
+                    "type": "Changer l'opacit\u00e9",
+                    "start_frame": 1850,
+                    "end_frame": 1935,
+                    "opacity": 0
+                }
+            },
+            "font_path": "Source/Font/prstart.ttf",
+            "text": "Alan Turing (fondateur de l'informatique)",
+            "position_initial": [
+                20,
+                154
+            ]
+        },
+        "17": {
+            "name": "Guido van Rossum",
+            "type": "Texte",
+            "event_dict": {
+                "0": {
+                    "name": "Convert_Guido",
+                    "type": "Convertir en image",
+                    "frame": 0,
+                    "font_size": 15
+                },
+                "1": {
+                    "name": "opacit\u00e9_guido",
+                    "type": "Changer l'opacit\u00e9",
+                    "start_frame": 0,
+                    "end_frame": 0,
+                    "opacity": 0
+                },
+                "2": {
+                    "name": "opacit\u00e9_guido_2",
+                    "type": "Changer l'opacit\u00e9",
+                    "start_frame": 1689,
+                    "end_frame": 1728,
+                    "opacity": 255
+                },
+                "3": {
+                    "name": "opacit\u00e9_guido_3",
+                    "type": "Changer l'opacit\u00e9",
+                    "start_frame": 1850,
+                    "end_frame": 1935,
+                    "opacity": 0
+                }
+            },
+            "font_path": "Source/Font/prstart.ttf",
+            "text": "Guido van Rossum (cr\u00e9ateur de python)",
+            "position_initial": [
+                20,
+                350
+            ]
+        },
+        "18": {
+            "name": "Pete_Shinners",
+            "type": "Texte",
+            "event_dict": {
+                "0": {
+                    "name": "Convert_Pete",
+                    "type": "Convertir en image",
+                    "frame": 0,
+                    "font_size": 15
+                },
+                "1": {
+                    "name": "opacit\u00e9_pete",
+                    "type": "Changer l'opacit\u00e9",
+                    "start_frame": 0,
+                    "end_frame": 0,
+                    "opacity": 0
+                },
+                "2": {
+                    "name": "opacit\u00e9_pete_2",
+                    "type": "Changer l'opacit\u00e9",
+                    "start_frame": 1689,
+                    "end_frame": 1728,
+                    "opacity": 255
+                },
+                "3": {
+                    "name": "opacit\u00e9_pete_3",
+                    "type": "Changer l'opacit\u00e9",
+                    "start_frame": 1850,
+                    "end_frame": 1935,
+                    "opacity": 0
+                }
+            },
+            "font_path": "Source/Font/prstart.ttf",
+            "text": "Pete Shinners (cr\u00e9ateur de pygame)",
+            "position_initial": [
+                20,
+                546
+            ]
+        },
+        "19": {
+            "name": "Classe",
+            "type": "Texte",
+            "event_dict": {
+                "0": {
+                    "name": "convert_classe",
+                    "type": "Convertir en image",
+                    "frame": 0,
+                    "font_size": 20
+                },
+                "1": {
+                    "name": "opacit\u00e9_classe_1",
+                    "type": "Changer l'opacit\u00e9",
+                    "start_frame": 0,
+                    "end_frame": 0,
+                    "opacity": 0
+                },
+                "2": {
+                    "name": "opacit\u00e9_classe_2",
+                    "type": "Changer l'opacit\u00e9",
+                    "start_frame": 1985,
+                    "end_frame": 2016,
+                    "opacity": 255
+                },
+                "3": {
+                    "name": "opacit\u00e9_classe_3",
+                    "type": "Changer l'opacit\u00e9",
+                    "start_frame": 2200,
+                    "end_frame": 2275,
+                    "opacity": 0
+                }
+            },
+            "font_path": "Source/Font/prstart.ttf",
+            "text": "Notre classe de NSI",
+            "position_initial": [
+                130,
+                183
+            ]
+        },
+        "20": {
+            "name": "Classe_photo",
+            "type": "Sprite",
+            "event_dict": {
+                "0": {
+                    "name": "taille_photo_classe",
+                    "type": "Changer la taille",
+                    "start_frame": 0,
+                    "end_frame": 0,
+                    "new_size": [
+                        552,
+                        414
+                    ]
+                },
+                "1": {
+                    "name": "opacit\u00e9_classe_photo_1",
+                    "type": "Changer l'opacit\u00e9",
+                    "start_frame": 0,
+                    "end_frame": 0,
+                    "opacity": 0
+                },
+                "2": {
+                    "name": "opacit\u00e9_classe_photo_2",
+                    "type": "Changer l'opacit\u00e9",
+                    "start_frame": 1985,
+                    "end_frame": 2016,
+                    "opacity": 255
+                },
+                "3": {
+                    "name": "opacit\u00e9_classe_photo_3",
+                    "type": "Changer l'opacit\u00e9",
+                    "start_frame": 2200,
+                    "end_frame": 2275,
+                    "opacity": 0
+                }
+            },
+            "sprite_path": "Source/img/Photo_de_classe.png",
+            "position_initial": [
+                50,
+                300
+            ],
+            "visible": true
+        },
+        "21": {
+            "name": "The_end",
+            "type": "Texte",
+            "event_dict": {
+                "0": {
+                    "name": "Convert_end",
+                    "type": "Convertir en image",
+                    "frame": 0,
+                    "font_size": 30
+                },
+                "1": {
+                    "name": "opacit\u00e9_end_1",
+                    "type": "Changer l'opacit\u00e9",
+                    "start_frame": 0,
+                    "end_frame": 0,
+                    "opacity": 0
+                },
+                "2": {
+                    "name": "opacit\u00e9_end_2",
+                    "type": "Changer l'opacit\u00e9",
+                    "start_frame": 2290,
+                    "end_frame": 2304,
+                    "opacity": 255
+                },
+                "3": {
+                    "name": "opacit\u00e9_classe_3",
+                    "type": "Changer l'opacit\u00e9",
+                    "start_frame": 2200,
+                    "end_frame": 2275,
+                    "opacity": 0
+                }
+            },
+            "font_path": "Source/Font/prstart.ttf",
+            "text": "THE END",
+            "position_initial": [
+                230,
+                294
+            ]
+        },
+        "22": {
+            "name": "Musique",
+            "type": "Musique sans intro unique",
+            "event_dict": {
+                "0": {
+                    "name": "play_msc",
+                    "type": "Jouer (Musique)",
+                    "frame": 0,
+                    "looping": false
+                }
+            },
+            "music_path": "Source/music/msc_07_credit.ogg"
+        }
+    }
+}
