@@ -7,6 +7,7 @@ from Source.CodeFile.GameConstant import ROBOBOSS_FIGHT_MUSIC, ROBOBOSS_INTRO_MU
 from Source.CodeFile.Utility import Timer
 from Source.CodeFile.Animation.teste_animation import animated_sprite
 from Source.CodeFile.Enemies.Boss.RoboBoss.Attacks.both_side_slam import BothSideSlam
+from Source.CodeFile.drops import Pile
 
 
 class Poing:
@@ -103,7 +104,6 @@ class Poing:
             
         off_screen = []
 
-        
         for i in range(len(self.bullets)):
             self.bullets[i].x += self.velocities[i][0]
             self.bullets[i].y += self.velocities[i][1]
@@ -256,6 +256,8 @@ class RoboBoss(BaseBoss):
             self.aliens[i].update(game.player)
             if self.aliens[i].hp == 0:
                 dead_alien.append(i)
+                if random.randint(0, 1) == 1:
+                    game.pile_liste.append(Pile(self.aliens[i].x + 53, self.aliens[i].y + 27))
 
         dead_alien.sort(reverse=True)
 

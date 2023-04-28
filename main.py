@@ -152,7 +152,7 @@ class Shmup:
 
         # Etat de jeu
 
-        self.debug_mode = 0 # Vérifie si le débug mode est actif1
+        self.debug_mode = 1 # Vérifie si le débug mode est actif1
 
         """
         0: Désactiver
@@ -262,7 +262,7 @@ class Shmup:
         self.boss_txt = self.hud_font.render("Boss", True, 'white').convert_alpha()
         
         self.end_cutscene = Cutscene()
-        with open("Source/Cutscenes/Roboboss_fin.json") as f:
+        with open("Source/Cutscenes/Roboboss_f1.json") as f:
             self.dict_cutscene = json.load(f)
 
         self.credit_cutscene = Cutscene()
