@@ -5,7 +5,7 @@
         640,
         780
     ],
-    "comment": "meurt",
+    "comment": "meurt\n",
     "element": {
         "0": {
             "name": "Roboboss",
@@ -817,6 +817,18 @@
                 0
             ],
             "visible": true
+        },
+        "12": {
+            "name": "boom",
+            "type": "SFX",
+            "event_dict": {
+                "0": {
+                    "name": "JOUE",
+                    "type": "Jouer (Sfx)",
+                    "frame": 0
+                }
+            },
+            "sfx_path": "Source/sfx/kaboom.ogg"
         }
     }
 }
