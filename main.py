@@ -70,25 +70,25 @@ class Shmup:
         self.achievement_handler = AchievementHandler(
             Achievement(
                 "Double Fun",
-                "Débloquer le tir double pour la 1ere fois",
+                "Débloquer le tir double pour la 1ère fois",
                 "2TR",
                 "Source/img/achievement/spr_45_ach_double_fun.png"
             ),
             Achievement(
                 "Octoshot !",
-                "Débloquer le tir octo pour la 1ere fois",
+                "Débloquer le tir octo pour la 1ère fois",
                 "8TR",
                 "Source/img/achievement/spr_47_ach_octo.png"
             ),
             Achievement(
                 "CHEATER !",
-                "Essayer d'utiliser le konami code",
+                "Essayer d'utiliser le Konami Code",
                 "KCD",
                 "Source/img/achievement/spr_48_ach_cheat_code.png"
             ),
             Achievement(
-                "Maitre du Jeu",
-                "Battre le Jeu avec seulement le x1 sans mourir",
+                "Maître du Jeu",
+                "Battre le jeu avec seulement le x1 et sans mourir",
                 "GDG",
                 "Source/img/achievement/Achievement_13.png"
             ),
@@ -100,13 +100,13 @@ class Shmup:
             ),
             Achievement(
                 "Sherlock !",
-                "Trouver ce succès en appyant sur espace sur l'écran de séléction d'achievement",
+                "Appuyer sur espace sur cette case dans le menu des succès",
                 "SHH",
                 "Source/img/achievement/Achievement_5.png"
             ),
             Achievement(
                 "Vainqueur de l'A.N.G.U.I.L.L.E",
-                "Vaincre l'A.N.G.U.I.L.L.E pour la 1ere fois",
+                "Vaincre l'A.N.G.U.I.L.L.E pour la 1ère fois",
                 "VDA",
                 "Source/img/achievement/Achievement_7.png"
             ),
@@ -117,20 +117,20 @@ class Shmup:
                 "Source/img/achievement/Achievement_6.png"
             ),
             Achievement(
-                "J'ai glissé chef",
+                "J'ai glissé Chef",
                 "Tuer un ennemi grâce de la bombe d'un OVNI",
                 "SMB",
                 "Source/img/achievement/Achievement_10.png"
             ),
             Achievement(
                 "C'est pas sympa",
-                "Quiter le jeu sans le lancer",
+                "Quiter le jeu sans y jouer",
                 "QMM",
                 "Source/img/achievement/Achievement_9.png"
             ),
             Achievement(
                 "Vainqueur du M.E.C.H.A",
-                "Vaincre le M.E.C.H.A pour la 1ere fois",
+                "Vaincre le M.E.C.H.A pour la 1ère fois",
                 "VDM",
                 "Source/img/achievement/Achievement_8.png"
             )
