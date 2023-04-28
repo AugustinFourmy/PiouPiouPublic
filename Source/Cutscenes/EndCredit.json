@@ -5,7 +5,7 @@
         640,
         780
     ],
-    "comment": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+    "comment": "",
     "element": {
         "0": {
             "name": "background",
@@ -475,7 +475,7 @@
                     ]
                 }
             },
-            "sprite_path": "Source/img/Trio.png",
+            "sprite_path": "Source/img/Trio.jpg",
             "position_initial": [
                 120,
                 325
@@ -791,7 +791,7 @@
                     "opacity": 0
                 }
             },
-            "sprite_path": "Source/img/Photo_de_classe.png",
+            "sprite_path": "Source/img/Photo_de_classe.jpg",
             "position_initial": [
                 50,
                 300
