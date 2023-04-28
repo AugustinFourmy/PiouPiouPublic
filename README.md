@@ -1,3 +1,7 @@
+<div>
+<img src="https://github.com/AugustinFourmy/PiouPiouPublic/blob/master/Source/img/PiouPiouImage.png?raw=true", style="text-align: center;">
+</div>
+
 Merci d'avoir téléchargé Piou Piou !
 =================
 
