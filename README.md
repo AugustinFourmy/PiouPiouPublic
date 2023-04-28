@@ -20,9 +20,15 @@ Les bibliothèques utilisées sont :
 * Random
 * Pathlib
 * et Json
-                                       
+ 
 
 ----------
+
+Pour installer pygame sur windows il faut allez dans l'invite de commande et tapez:
+ ```pip install pygame```
+
+----------
+ 
 Crédits
 ----------
 L'animation de l'explosion : https://tenor.com/fr/view/explosion-boom-deltarune-gif-23822980
