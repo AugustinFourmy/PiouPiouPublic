@@ -129,7 +129,7 @@ class Poing:
 
 class RoboBoss(BaseBoss):
     def __init__(self):
-        BaseBoss.__init__(self, "M.E.C.H.A", 5, 0, 0)
+        BaseBoss.__init__(self, "M.E.C.H.A", 550, 0, 0)
         self.pods = (
             pygame.rect.Rect(110, 90, 90, 90),
             pygame.rect.Rect(430, 90, 90, 90),

@@ -152,7 +152,7 @@ class Shmup:
 
         # Etat de jeu
 
-        self.debug_mode = 1 # Vérifie si le débug mode est actif1
+        self.debug_mode = 0 # Vérifie si le débug mode est actif1
 
         """
         0: Désactiver
